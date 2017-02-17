@@ -18,13 +18,11 @@ public class NewBehaviourScript : MonoBehaviour
 	{
 		max = 1000;
 		min = 1;
-		guess = 500;
+		guess = Mathf.RoundToInt (Random.value * 1000);
 				
 		print ("==================================");
 		print ("Welcome to Number Wizard");
-		print ("Pick a number, but DON'T tell me.");
-		print ("The highest number you can pick is " + max);
-		print ("The lowest number you can pick is " + min);
+		print ("Pick a number betwee " + max + " and " + min + ", but DON'T tell me.");
 		
 		print ("Is the number higher or lower than " + guess + "?");
 		print ("Up arrow for higher, down for lower, return for equal.");
