@@ -22,9 +22,9 @@ public class NewBehaviourScript : MonoBehaviour
 				
 		print ("==================================");
 		print ("Welcome to Number Wizard");
-		print ("Pick a number betwee " + max + " and " + min + ", but DON'T tell me.");
+		print ("Pick a number between " + max + " and " + min + ", but don't tell me.");
 		
-		print ("Is the number higher or lower than " + guess + "?");
+		print ("Is the number higher or lower than " + guess);
 		print ("Up arrow for higher, down for lower, return for equal.");
 		
 		max = max + 1; // fixes rounding issue where stuck at 999
@@ -40,7 +40,7 @@ public class NewBehaviourScript : MonoBehaviour
 			max = guess;
 			NextGuess ();
 		} else if (Input.GetKeyDown (KeyCode.Return)) {
-			print ("I won!");
+			print ("I WON!");
 			StartGame ();
 		}
 		
