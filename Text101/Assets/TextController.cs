@@ -29,7 +29,6 @@ public class TextController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		print (myState);
 		if (myState == States.cell) {
 			state_cell ();
 		} else if (myState == States.sheets_0) {
