@@ -5,3 +5,5 @@ Projects:
   - First Unity C# project, a simple console number guessing game
 - Text101
   - Choose your own adventure text-based game
+- NumberWizardUI
+  - Extend Number Wizard to give it a UI
